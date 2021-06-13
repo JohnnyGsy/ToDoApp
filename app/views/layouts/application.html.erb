@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <title>ToDoList</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
+</head>
+<body>
+<%= render 'layouts/header' %>
+	<p class="notice"><%= notice %></p>
+	<p class="alert"><%= alert %></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-sm-0"></div>
+			<div class="col-lg-8 col-sm-12 target_for_project">
+				<%= yield %>		
+			</div>
+		</div>
+	</div>
+	<%= image_tag("ajax-loader.gif", :alt => "loader", class: "ajax_loader") %>
+	<div class="row">
+		<%= render 'layouts/footer' %>
+		
+	</div>
+	
+		
+	
+	
+</body>
+</html>

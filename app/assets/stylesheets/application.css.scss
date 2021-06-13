@@ -1,0 +1,197 @@
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap-datepicker
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html body { 
+background: linear-gradient(0deg, rgba(255,165,2,1) 0%, rgba(180,180,180,1) 75%) center; height: 100vh; background-attachment: fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/* header */
+.navbar-default .navbar-nav > li > a > span.glyphicon-log-out{
+  color: rgb(245, 0, 0);
+  text-shadow: 0 0 4px grey;
+  &:hover{
+    color: red;
+    text-shadow: 0 0 6px red;
+  }
+}
+
+ul.navbar-form.navbar-left{
+  color: grey;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+   
+    width: 80%;
+    left: 10%;
+ 	height: 25px;
+  
+  /*border-bottom: 1px solid $grayMediumLight;*/
+  color: #D3D3D3;
+  a {
+    color: $gray;
+    &:hover {
+      color: #737373;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
+                                                      /*pages style*/
+.stroked{text-decoration: line-through;}
+.input-group.add_tast_to_project{width: 97%;}
+.input-group.edit_project_name{width: 100%;}
+
+table.table{                                                                   /*tables*/
+  margin-bottom: 80px;
+  }    
+thead tr:first-child { background: linear-gradient(to top, #1462b5, #429cfb);}
+thead tr:nth-child(2) { 
+  background: rgb(211,211,211);
+  border: 0;
+}
+tbody{
+  background: white;
+}
+/*tbody tr td {background: #FFFFFF;}*/
+  tr:last-child td:first-child {border-radius: 0 0 0 10px!important;}
+  tr:last-child td:last-child {border-radius: 0 0 10px 0!important;}
+
+tbody tr:hover{
+ background-color: #ffe!important; /* Цвет фона */
+  .control, .control>a{
+    color: rgba(176,196,222, 0.8);
+  }
+}
+th.project_name{                                                          /*for projects name*/
+  font: bold 130% serif;
+  text-shadow: 0 0 8px rgba(0,0,0,0.6); /* Параметры тени */
+  color: white;
+}
+.add_tast_to_project_form{
+  font:  100% serif;
+  text-shadow: 0 0 4px rgba(211,211,211,0.9)
+}
+td.tasks{ /*color of tasks name*/
+  color: rgba(122,156,199, 0.9);
+  text-shadow: 0 0 2px rgba(0,0,0,0.2); /* Параметры тени */
+}
+.control, .control>a{
+  width: 15px;
+  height: 17px;
+  color: transparent;
+  .glyphicon:hover{
+    cursor:pointer;
+    color: rgba(122,156,199, 0.8);
+  } 
+}
+/*tbody tr.put_task_after_me{
+  background-color: rgba( 211,211,211, 0.5)!important; /* Цвет фона */
+/*}*/
+.inline{display: inline;}
+
+.control_left_side{
+  width: 15px;
+  height: 17px;
+  .glyphicon-plus-sign{
+    vertical-align: middle; 
+    color: green;
+  }
+  .glyphicon-hourglass{
+    padding-left: 3px;
+    color: rgba(255,255,255, 0.8);
+  }
+}
+a.glyphicon.control_right_side{
+  color: rgba(211,211,211, 0.9); 
+}
+
+a{
+  color: rgba(176,196,222, 0.8);
+  text-decoration: none!important; /* Убирает подчеркивание для ссылок */
+} 
+.select_deadline_field_input{
+  width: 108px;
+}
+td, th {
+  vertical-align: middle!important;
+}
+.save_deadline_send_ajax{
+  text-shadow: 1px 1px 2px black, 0 0 1em blue;
+  border-left: 1px solid grey;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.save_deadline_field{
+  padding-left: 8px;
+  padding-right: 4px;
+}
+
+img.ajax_loader{
+  visibility: hidden;
+  position: fixed;
+  z-index: 16777271;
+  top: 50%;
+  left: 50%;
+  height: 30px;
+  width: 30px;
+  margin: -15px 0 0 -15px;
+}
+
+#new_user{
+  width: 200px;
+}
+.db_tables{
+  list-style-type: none;
+  margin-bottom: 20px;
+
+}
+.transparent_sql{
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 13pt; /* Размер шрифта в пунктах */
+  text-shadow: 1px 1px 2px white, 0 0 1em grey;
+  border-radius: 5px;
+  border: 1px solid rgba(211,211,211, 0.3);
+  padding: 5px;
+  padding-left: 12px;
+  background: rgba(211,211,211, 0.1);
+  margin-bottom: 70px;
+  ul>li>ul>li{
+    text-shadow: 1px 1px 1px red, 0 0 1em white;
+  }
+}
+.sql_header{
+  text-align: center;
+}

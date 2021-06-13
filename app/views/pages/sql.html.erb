@@ -1,0 +1,68 @@
+<div class="sql_header">
+	<h2>SQL task</h2>	
+</div>
+
+<div class="transparent_sql">
+	<h5>Given tables:</h5>
+	<ul class="db_tables">
+		<li>★ tasks (id, name, status, project_id, rating, deadline)</li>
+		<li>★ projects (id, name, user_id)</li>
+	</ul>
+	<h5>Write the queries for:</h5>
+	<ul class="list_of_sql_tasks">
+		<li>get all statuses, not repaeting, alphabeticaly ordered
+			<ul>
+				<li> SELECT DISTINCT status FROM tasks ORDER BY status ASC</li>
+				<li> Task.select(:status).uniq.order(status: :asc)</li>
+			</ul>
+		</li>
+		<li>get the count of all tasks in each project, order by tasks count descending
+			<ul> 
+				<li> SELECT project_id, COUNT(*) AS count_all FROM tasks GROUP BY project_id ORDER BY count_all DESC</li>
+			</ul>
+		</li>
+		<li>get the count of all tasks in each project, order by projects names
+			<ul>
+				<li> SELECT projects.id, projects.name, COUNT(tasks.name) AS amount_of_tasks FROM tasks LEFT JOIN projects GROUP BY projects.name ORDER BY projects.name ASC</li>
+				<% @sql = Task.select("count(*) as tasks_amount").group(:project_id) %>
+				<li><%= @sql %></li>
+				<% @sql.each do |sql| %>
+				<li><%= sql %></li>
+				<% end %>
+			</ul>
+		</li>
+		<li>get the tasks for all projects having the name beginning with “N” letter
+			<ul>
+				<li>Ответ</li>
+			</ul>
+		</li>
+		<li>get the list of all projects containing the ‘a’ letter in the middle of the name, and show the tasks count near each project. Mention that there can exist projects without tasks and tasks with project_id=NULL
+			<ul>
+				<li>Ответ</li>
+			</ul>
+		</li>
+		<li>get the list of tasks with duplicate names. Order alphabetically
+			<ul>
+				<li>Ответ</li>
+			</ul>
+		</li>
+		<li>get the list of tasks having several exact matches of both name and status, from the project ‘Garage’. Order by matches count
+			<ul>
+				<li>Ответ</li>
+			</ul>
+		</li>
+		<li>get the list of project names having more than 10 tasks in status ‘completed’. Order by project_id
+			<ul>
+				<li>SELECT projects.name AS project_name, 
+					COUNT(CASE
+                            WHEN tasks.status = "t" THEN 1
+                            ELSE NULL
+                          END) AS amount_of_tasks FROM tasks
+					LEFT JOIN projects
+					GROUP BY tasks.project_id HAVING amount_of_tasks > 10
+ 				</li>
+			</ul>
+		</li>
+		
+	</ul>
+</div>
