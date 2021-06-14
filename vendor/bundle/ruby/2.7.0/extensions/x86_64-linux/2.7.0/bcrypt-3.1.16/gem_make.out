@@ -1,11 +1,11 @@
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-21103-i0rd1k.rb extconf.rb
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-30398-1sik2rs.rb extconf.rb
 creating Makefile
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
 make "DESTDIR=" clean
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
 make "DESTDIR="
 compiling bcrypt_ext.c
 compiling crypt_blowfish.c
@@ -20,6 +20,6 @@ cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
 cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
 linking shared-object bcrypt_ext.so
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210614-21103-1lxjn14
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210614-30398-1otaw08

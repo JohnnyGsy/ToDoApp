@@ -1,12 +1,12 @@
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-21103-1kt0tvh.rb extconf.rb
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-30398-1tx7jg4.rb extconf.rb
 checking for -lpthread... yes
 creating Makefile
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
 make "DESTDIR=" clean
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
 make "DESTDIR="
 compiling accessor.cc
 compiling array.cc
@@ -38,6 +38,6 @@ compiling v8.cc
 compiling value.cc
 linking shared-object v8/init.so
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
 make "DESTDIR=" install
-/usr/bin/install -m 0755 init.so ./.gem.20210614-21103-2l3enk/v8
+/usr/bin/install -m 0755 init.so ./.gem.20210614-30398-ld8xvw/v8

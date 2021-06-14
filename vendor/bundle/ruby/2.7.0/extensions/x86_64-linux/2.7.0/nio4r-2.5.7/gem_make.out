@@ -1,5 +1,5 @@
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-21103-1pvxff1.rb extconf.rb
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-30398-1gpskmf.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -11,10 +11,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -116,6 +116,6 @@ cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
 cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
 linking shared-object nio4r_ext.so
 
-current directory: /home/ivan/Рабочий стол/rubydir/1/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
+current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210614-21103-17u0htz
+/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20210614-30398-195f7w0
