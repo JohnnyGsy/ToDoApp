@@ -20,11 +20,9 @@ gem 'sprockets', '~> 4.0'
 gem 'uglifier'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer'
- gem 'execjs'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'bootstrap-datepicker-rails'
