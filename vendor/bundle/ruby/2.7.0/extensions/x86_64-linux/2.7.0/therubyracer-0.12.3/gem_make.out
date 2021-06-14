@@ -1,5 +1,5 @@
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-30398-1tx7jg4.rb extconf.rb
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-43709-vnube5.rb extconf.rb
 checking for -lpthread... yes
 creating Makefile
 
@@ -40,4 +40,4 @@ linking shared-object v8/init.so
 
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/therubyracer-0.12.3/ext/v8
 make "DESTDIR=" install
-/usr/bin/install -m 0755 init.so ./.gem.20210614-30398-ld8xvw/v8
+/usr/bin/install -m 0755 init.so ./.gem.20210614-43709-1yz7kbp/v8
