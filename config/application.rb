@@ -23,7 +23,7 @@ module ToDoList
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.assets.initialize_on_precompile = false
     config.assets.js_compressor = :uglifier
-    config.assets.css_compressor = :yui
+   
 
   end
 end
