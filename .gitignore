@@ -19,3 +19,9 @@ doc/
 .DS_Store
 .idea
 .secret
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity

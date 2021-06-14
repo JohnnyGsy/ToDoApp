@@ -12,6 +12,7 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails'
 gem 'webpacker', '~> 5.0'
+
 gem 'puma'
 gem 'sprockets', '~> 4.0'
 
