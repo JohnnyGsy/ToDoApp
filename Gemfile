@@ -11,6 +11,9 @@ group :development do
 end
 # Use SCSS for stylesheets
 gem 'sass-rails'
+gem 'webpacker', '~> 5.0'
+gem 'puma'
+gem 'sprockets', '~> 4.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
