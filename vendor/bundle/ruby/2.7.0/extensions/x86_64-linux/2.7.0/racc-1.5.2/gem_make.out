@@ -1,5 +1,5 @@
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-43709-xdhk32.rb extconf.rb
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-46059-7ttn8i.rb extconf.rb
 checking for rb_ary_subseq()... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object racc/cparse.so
 
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
 make "DESTDIR=" install
-/usr/bin/install -m 0755 cparse.so ./.gem.20210614-43709-6g1pg5/racc
+/usr/bin/install -m 0755 cparse.so ./.gem.20210614-46059-1dan0cr/racc

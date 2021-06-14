@@ -1,5 +1,5 @@
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/puma-5.3.2/ext/puma_http11
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-43709-1bn4igk.rb extconf.rb
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-46059-3z8jfq.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -22,4 +22,4 @@ linking shared-object puma/puma_http11.so
 
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/puma-5.3.2/ext/puma_http11
 make "DESTDIR=" install
-/usr/bin/install -m 0755 puma_http11.so ./.gem.20210614-43709-huwlr6/puma
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20210614-46059-1nnt7fq/puma

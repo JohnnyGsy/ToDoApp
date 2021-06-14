@@ -1,5 +1,5 @@
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
-/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-43709-1ba5gy7.rb extconf.rb
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210614-46059-1837a02.rb extconf.rb
 creating Makefile
 
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
@@ -22,4 +22,4 @@ linking shared-object bcrypt_ext.so
 
 current directory: /home/ivan/ToDoApp-master/vendor/bundle/ruby/2.7.0/gems/bcrypt-3.1.16/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210614-43709-1w2gbaq
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20210614-46059-1sj8neb
