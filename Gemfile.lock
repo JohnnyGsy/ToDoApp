@@ -215,6 +215,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails
   devise
+  execjs
   jbuilder
   jquery-rails
   pg
