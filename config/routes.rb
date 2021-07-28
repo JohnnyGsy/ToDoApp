@@ -1,7 +1,7 @@
 ToDoList::Application.routes.draw do
   devise_for :users
   get 'profile',  to: "persons#profile"
-  get 'sql',      to: "pages#sql"
+ 
  # get "pages/todolist"
   resources :tasks
   resources :projects
