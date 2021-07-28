@@ -18,7 +18,7 @@ gem 'sprockets', '~> 4.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
-
+gem 'rubocop', require: false
 # Use CoffeeScript for .js.coffee assets and views
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
