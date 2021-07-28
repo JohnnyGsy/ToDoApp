@@ -1,22 +1,13 @@
-
-  <table class="table table-hover">
-    <thead>
-    <!--PROJECTS-->
-      <tr>
-        <th class="control_left_side"><span class="glyphicon glyphicon-qrcode"></span></th>
-        <th colspan="4" class="projects" id= <%="project_name_#{project.id}"%> ><%= project.name %></th>
-
-        <% @project_id = project.id %> <!-- Add Task to direct Project -->
-
-        <%= hidden_field_tag(:projects, project.id) %>
-        <th class="control"><%= link_to '', edit_project_path(project), remote: true, class: "glyphicon glyphicon-pencil edit_project_name", id: project.id %></th>
-        <th class="control"><%= link_to '', project, remote: true, class: "glyphicon glyphicon-trash", method: :delete, data: { confirm: 'Are you sure?' } %></th>
-      </tr>
-    </thead>
-
-    <%= render 'pages/form_for_add_task' %> 
-
-    <tbody>
-      <%= render '/pagesform_for_filling_project_by_task' %> 
-    </tbody>
-  </table>
+<% @project_id = project.id %> <!-- Add Task to direct Project -->
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th class="control_left_side"><span class="glyphicon glyphicon-hourglass"></span></th>
+      <th colspan="5" class="projects project_name" id= <%="project_name_#{project.id}"%> ><%= project.name %></th>
+      <th class="control"><span class="glyphicon glyphicon-pencil edit_project_name control_right_side" id = <%=@project_id %> ></span></th>
+      <th class="control"><%= link_to '', project, remote: true, class: "glyphicon glyphicon-trash control_right_side", method: :delete, data: { confirm: 'Are you sure?' } %></th>
+    </tr>
+  <%= render 'tasks/form_for_add_task' %> 
+  </thead>
+  <tbody class="put_task_inside_me"> </tbody>
+</table>

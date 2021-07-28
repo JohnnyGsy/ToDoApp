@@ -35,7 +35,7 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       if @task.save
-        format.html { render :partial => "pages/form_for_filling_project_by_one_task", :locals => { :task => @task } } # redirect_to todolist_url, notice: 'Task was successfully created.'
+        format.html { render :partial => "tasks/form_for_filling_project_by_one_task", :locals => { :task => @task } } # redirect_to todolist_url, notice: 'Task was successfully created.'
         #format.json { render action: 'show', status: :created, location: @task }
       else
         format.html { render action: 'new' }

@@ -32,7 +32,7 @@ class ProjectsController < ApplicationController
     @task = Task.new
     respond_to do |format|
       if @project.save
-        format.html { render :partial => "pages/project_tables", :locals => { :project => @project } }   #redirect_to todolist_url, notice: 'Project was successfully created.'
+        format.html { render :partial => "pages/show_project", :locals => { :project => @project } }   #redirect_to todolist_url, notice: 'Project was successfully created.'
                                              # , :locals => { :project => @project }, collection: @task
         #format.json { render action: 'show', status: :created, location: @project }
       else
