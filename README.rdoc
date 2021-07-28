@@ -4,14 +4,14 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
-'rails' -> '5.0.0.1'
+
 * Ruby version
-ruby -v "2.3.1"
+
 
 * Configuration
 
 * Database creation
-	heroku rails db:migration
+	
 
 * Database initialization
 

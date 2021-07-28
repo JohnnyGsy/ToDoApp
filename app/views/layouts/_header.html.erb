@@ -18,7 +18,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%= link_to content_tag(:span, "(current)", class: "sr-only"), sql_path %></li>
+        
       </ul>
       <ul class="navbar-form navbar-left">
           
@@ -31,9 +31,9 @@
       <% else %>
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to 'Log in', new_user_session_path %></li>
-          <li><%= link_to content_tag(:span, '', class: "glyphicon glyphicon-log-in"), new_user_session_path %></li>
+          
           <li><%= link_to 'Sign up', new_user_registration_path %></li>
-          <li><%= link_to content_tag(:span, '', class: "glyphicon glyphicon-registration-mark"), new_user_registration_path %></li>
+          <
         </ul>
       <% end %>
     </div><!-- /.navbar-collapse -->
